@@ -47,6 +47,7 @@ display:flex+flex:1
 问题：获取数据时，会发生资源未加载到
 
 解决：可以采用几个方法依次验证：
-·重新完善接口：增加`http://` 和`api.douban.com`，即在请求的接口地址前补充：`http:// api.douban.com`
 
-·跨域报错：使用跨域解决方法，如jsonp方法，在api的url地址上加上对应路由：`&callback=abc` 来测试,如果能接收到则说明支持jsonp解决（在请求的datatype进行请求）
+(1)重新完善接口：增加`http://` 和`api.douban.com`，即在请求的接口地址前补充：`http:// api.douban.com`
+
+(2)跨域报错：使用跨域解决方法，如jsonp方法，在api的url地址上加上对应路由：`&callback=abc` 来测试,如果能接收到则说明支持jsonp解决（在请求的datatype进行请求）
