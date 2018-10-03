@@ -1,6 +1,7 @@
 # DouBan-Movie
 豆瓣电影Top250
 
+![](https://wx3.sinaimg.cn/mw690/0060lm7Tly1fv9h7mkfjuj30hm0uy77w.jpg)
 
 ### 技术
 * HTML+CSS使用
