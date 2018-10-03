@@ -1,7 +1,7 @@
 # DouBan-Movie
 豆瓣电影Top250
 
-![](https://wx3.sinaimg.cn/mw690/0060lm7Tly1fv9h7mkfjuj30hm0uy77w.jpg)
+
 
 ### 技术
 * HTML+CSS使用
@@ -52,3 +52,6 @@
 (1)重新完善接口：增加`http://` 和`api.douban.com`，即在请求的接口地址前补充：`http:// api.douban.com`
 
 (2)跨域报错：使用跨域解决方法，如jsonp方法，在api的url地址上加上对应路由：`&callback=abc` 来测试,如果能接收到则说明支持jsonp解决（在请求的datatype进行请求）
+
+### 图片展示
+![](https://wx3.sinaimg.cn/mw690/0060lm7Tly1fv9h7mkfjuj30hm0uy77w.jpg)
